@@ -1,0 +1,143 @@
+body{
+    color: rgb(242, 234, 234);
+
+    margin: 0;
+    padding: 0%;
+    background: url('bg.png.jpg'); 
+    background-size:100% 800px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    top: 20px;
+
+}
+.left img {
+    width: 85px;
+    filter: invert(100%);
+}
+.left div{
+    line-height: 20px;
+    font: 26px;
+    text-align: center;
+
+}
+.mid{
+    background-color: rgb(62, 46, 46);
+    display: block;
+    width: 40%;
+    border: 3px solid red;
+    border-radius: 30px;
+    margin: 22px auto;
+    ;
+
+}
+.right{
+    position: absolute;
+    right: 36px;
+    top: 24px;
+    display: inline-block;
+}
+.navbar{
+    /* background-color: black; */
+    border: 3px solid rgb(1, 2, rgb(89, 89, 131));
+    /* padding: 23px; */
+    background-color: rgba(34, 20, 20, 0.022)
+    display: inline-block;
+    border-radius: 12px;
+
+}
+.navbar li {
+    
+    display: inline-block;
+    font-size: 15px;
+    padding: 0px 15px;
+    
+} 
+.navbar li a {
+    background-color: gray;
+    border: 3px solid green;
+    border-radius: 20px;
+    color: pink;
+    text-decoration: none;
+    padding: 3px 9px;
+    /* display: inline-block; */
+    font-size: 13px;
+
+} 
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: orange;
+    
+
+} 
+.btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px 7px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.803);
+    padding: 4px 8px;
+    border: 2px solid brown ;
+    border-radius: 14px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(36, 36, 142);
+}
+.container{
+    border: 3px solid white;
+    margin: 53px 53px;
+    padding: 16px;
+    width: 33%;
+    border-radius: 63px;
+}
+.container h1{
+    text-align: center;
+
+}
+.container button{display: block;
+    width: 30%;
+    margin: 4px auto;
+    font-size: 11px;
+}
+
+
+.formgroup{
+    justify-content: center;
+}
+
+.formgroup input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin: 3px 3px;
+    padding: 3px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font size: 17px;
+    
+}
+.gender{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    width: auto;
+    margin:  1px auto;
+    padding: 3px;
+    border: 0.2px solid white;
+    border-radius: 10px;
+    font size: 8px;
+}
+#gendert{
+    color: black;
+    text-align: center;
+}

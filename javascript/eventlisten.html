@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #parasf{
+        display: block;
+    }
+    #btn{
+        padding:10px 14px;
+        background-color: red;
+        border: 2px solid black;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    </style>
+
+<body>
+    <p id="parasf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatibus suscipit excepturi reiciendis porro error et beatae. Iste, dolorum minima laboriosam impedit quo, explicabo cupiditate expedita pariatur, soluta accusantium libero hic ad asperiores illo ipsa reiciendis corporis ratione tempora placeat deleniti harum animi illum labore esse. Exercitationem, labore iste earum reprehenderit aspernatur laborum praesentium est sint! Ut a voluptatem culpa voluptas delectus doloremque, quibusdam sapiente nisi eum.</p>
+    <button id="btn" onclick="togglehide()">show/hide </button>
+</body>
+
+<script>
+    let parasf= document.getElementById('parasf')
+    parasf.addEventListener("mouseover", function run(){alert("mouse is inside")})
+    
+    function togglehide(){
+        // let btn = document.getElementById('btn')
+        let parasf= document.getElementById('parasf')
+        if(parasf.style.display != 'none'){
+            parasf.style.display = 'none';
+        } 
+        else{
+            parasf.style.display = 'block';
+        }
+        
+    }
+</script>
+</html>
